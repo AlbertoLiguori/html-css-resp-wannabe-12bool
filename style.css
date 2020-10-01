@@ -68,3 +68,141 @@ img {
 .clear {
   clear: both;
 }
+
+/* TABLET*/
+@media screen and (min-width: 769px) and (max-width:992px){
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+
+  h3{
+    font-size:16px;
+  }
+
+  h1{
+    font-size:24px;
+    padding-top: 20px;
+  }
+
+  hr{
+    display:none;
+  }
+
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin-top:30px;
+    margin-bottom:20px;
+    padding-left:10px;
+    padding-right: 10px;
+  }
+
+  #lezioni .row .right img{
+    width:200px;
+    height:auto;
+    margin-top:27px;
+
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    margin-top: 30px;
+    margin-bottom:20px;
+    padding-left:10px;
+    padding-right: 10px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 30px;
+    margin-bottom:20px;
+    padding-left:10px;
+    padding-right: 10px;
+  }
+
+  #why,#lezioni.container{
+    background-color: #f2f2cd;
+  }
+
+  img{
+    width:150px;
+    height:auto;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+
+/* MOBILE */
+@media screen and (max-width:768px){
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+
+  h3{
+    font-size:14px;
+  }
+
+  h1{
+    font-size:22px;
+    padding-top: 20px;
+  }
+
+  .row{
+    width:100%;
+    margin:0;
+  }
+
+  #lezioni .row > .left, #lezioni .row > .right {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  #steps .row > .left, #steps .row > .central, #steps .row > .right {
+    float: left;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+  #why .row > .first, #why .row > .second, #why .row > .third {
+      padding-left:20px;
+      padding-right: 20px;
+      margin-top:30px;
+      margin-bottom:20px;
+  }
+
+  #why,#lezioni.container{
+    background-color: #f2f2cd;
+  }
+
+img{
+  width:125px;
+  height:auto;
+}
+
+hr{
+  display:none;
+}
+
+
+}
