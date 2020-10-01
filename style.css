@@ -1,4 +1,5 @@
 .row {
+  width:90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -157,8 +158,6 @@ img {
 
 }
 
-
-
 /* MOBILE */
 @media screen and (max-width:768px){
 
@@ -196,27 +195,27 @@ img {
     padding-bottom:10px;
     padding-left:20px;
     padding-right: 20px;
-}
+  }
 
   #why .row > .first, #why .row > .second, #why .row > .third {
       padding-left:20px;
       padding-right: 20px;
       margin-top:30px;
       margin-bottom:20px;
-  }
+    }
 
   #why,#lezioni.container{
     background-color: #f2f2cd;
   }
 
-img{
-  width:125px;
-  height:auto;
-}
+  img{
+    width:125px;
+    height:auto;
+  }
 
-hr{
-  display:none;
-}
+  hr{
+    display:none;
+  }
 
 
 }
