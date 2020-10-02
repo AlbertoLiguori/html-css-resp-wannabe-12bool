@@ -8,7 +8,9 @@
 /* il nostro framework avra una max-width di 1170px
 lasciando margini uguali laterali */
 .container{
-  width:100%;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* .container diventeranno le righe, a cui attribuire eventualmente un altezza */
